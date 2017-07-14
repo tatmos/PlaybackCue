@@ -20,3 +20,10 @@ PlaybackCueフォルダをプロジェクトに追加する。
 ## 参考
 【Unity】"Default Playables"で、VideoPlayerやTextをタイムラインで制御したりFadeoutやTweenしたり　➡︎　
 http://tsubakit1.hateblo.jp/entry/2017/07/14/215906
+
+# ToDo:
+実際のところこのままだと音が鳴るだけなのでいろいろ足りないところ。
+- OneShot,Gate(Hold)的な振る舞いの指定
+- 複数の音を鳴らすかどうかのフラグ
+- blendでフェードさせる
+- VolumeやPitchなどパラメータ指定
